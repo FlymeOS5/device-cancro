@@ -7,7 +7,7 @@
 # The default value is base.
 # Support values: base, base_cm, base_mt6592 and other devices in the future.
 #-----------------------------------------------------------------------------
-BASE := a0001
+BASE := base_cm
 
 ##############################################################################
 # The value is used for resource adapter with the aapt tool.
@@ -146,7 +146,7 @@ override_property += \
     ro.product.model_romer=port_nian0114 \
     ro.ota.romname=Flyme OS \
     ro.ota.manifest=http://flymeota.nianrom.cn/cancro/ota.xml \
-    ro.ota.version=20160517
+    ro.ota.version=20160518
 
 ##############################################################################
 # The value decides which property you will remove from the build.prop.
