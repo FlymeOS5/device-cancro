@@ -75,7 +75,7 @@ UserDictionaryProvider WAPPushManager
 # You need to decode android.policy.jar to the project directory (use apktool d android.policy.jar) first,
 # and then you can make it by:   make android.policy
 #-----------------------------------------------------------------------------
-vendor_modify_jars := android.policy framework services telephony-common wifi-service org.cyanogenmod.platform
+vendor_modify_jars := android.policy framework services telephony-common org.cyanogenmod.platform core-libart
 
 ##############################################################################
 # The value decides which board system directory you want to save.
@@ -144,7 +144,7 @@ board_modify_apps := TeleService SystemUI Settings
 override_property += \
     ro.ota.romname=Flyme OS \
     ro.ota.manifest=http://flymeota.nianrom.cn/cancro/ota.xml \
-    ro.ota.version=20160620
+    ro.ota.version=20160627
 
 ##############################################################################
 # The value decides which property you will remove from the build.prop.
